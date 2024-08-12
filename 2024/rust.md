@@ -19,7 +19,6 @@ The Rust language has many strengths to consider when choosing the best language
 - Rust has rich abstraction features that allow developers to encode many of the invariants of their program into code. the code is then checked by the compiler instead of relying on convention or documentation. This feature can often lead to the feeling of "if it compiles, it works."
 - Rust has built-in tools for building, testing, documenting, and sharing code as well as a rich ecosystem of third-party tools and libraries. These tools can make some tasks that are difficult in some languages, such as building dependencies, easy and productive in Rust.
 
-## Unique features of Rust
 
 ## Manage code with the Rust module system
 Rust offers a collection of features to help you manage and organize your code. These features are referred to as the Rust module system. The system is composed of crates, modules, and paths, and tools to work with those items.
@@ -33,3 +32,18 @@ Rust offers a collection of features to help you manage and organize your code. 
 
 * ### Paths:
  In Rust, you can use paths to name items in your code. For example, a path can be a data definition like a vector, a code function, or even a module. The module feature also helps you control the privacy of your paths. You can specify the parts of your code that are accessible publicly versus parts that are private. This feature lets you hide the implementation details.
+
+
+## Create and manage projects with Cargo
+While it's possible to use the Rust compiler (rustc) directly to build crates, most projects use the Rust build tool and dependency manager called Cargo.
+
+Cargo does lots of things for you, including:
+
+* Create new project templates with the cargo new command.
+* Build a project with the cargo build command.
+* Build and run a project with the cargo run command.
+* Test a project with the cargo test command.
+* Check project types with the cargo check command.
+* Build documentation for a project with the cargo doc command.
+* Publish a library to crates.io with the cargo publish command.
+* Add dependent crates to a project by adding the crate name to the Cargo.toml file.
