@@ -39,11 +39,11 @@ While it's possible to use the Rust compiler (rustc) directly to build crates, m
 
 Cargo does lots of things for you, including:
 
-* Create new project templates with the cargo new command.
-* Build a project with the cargo build command.
-* Build and run a project with the cargo run command.
-* Test a project with the cargo test command.
-* Check project types with the cargo check command.
-* Build documentation for a project with the cargo doc command.
-* Publish a library to crates.io with the cargo publish command.
-* Add dependent crates to a project by adding the crate name to the Cargo.toml file.
+* Create new project templates with the `cargo new` command.
+* Build a project with the `cargo build` command.
+* Build and run a project with the `cargo run` command.
+* Test a project with the `cargo test` command.
+* Check project types with the `cargo check` command.
+* Build documentation for a project with the `cargo doc` command.
+* Publish a library to `crates.io` with the `cargo publish` command.
+* Add dependent crates to a project by adding the crate name to the `Cargo.toml` file.
