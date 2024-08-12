@@ -21,3 +21,15 @@ The Rust language has many strengths to consider when choosing the best language
 
 ## Unique features of Rust
 
+## Manage code with the Rust module system
+Rust offers a collection of features to help you manage and organize your code. These features are referred to as the Rust module system. The system is composed of crates, modules, and paths, and tools to work with those items.
+
+* ### Crates:
+ A Rust crate is a compilation unit. It's the smallest piece of code the Rust compiler can run. The code in a crate is compiled together to create a binary executable or a library. In Rust, only crates are compiled as reusable units. A crate contains a hierarchy of Rust modules with an implicit, unnamed top-level module. 
+ https://crates.io/
+
+* ### Modules:
+ Rust modules help you organize your program by letting you manage the scope of the individual code items inside a crate. Related code items or items that are used together can be grouped into the same module. Recursive code definitions can span other modules.
+
+* ### Paths:
+ In Rust, you can use paths to name items in your code. For example, a path can be a data definition like a vector, a code function, or even a module. The module feature also helps you control the privacy of your paths. You can specify the parts of your code that are accessible publicly versus parts that are private. This feature lets you hide the implementation details.
