@@ -6,6 +6,17 @@ Learning rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --help
 ```
 
+Upgrade the rust
+
+```bash
+rustup self update
+rustup install 1.81.0
+rustup default 1.81.0
+rustc --version
+```
+
+
+
 ## 2. Playground
 https://play.rust-lang.org/
 
